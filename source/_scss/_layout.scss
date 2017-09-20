@@ -171,7 +171,6 @@
 }
 
 .site-header {
-  border-top: 5px solid $black-color;
   padding: {
     top: 1.4em;
     bottom: 3em;
@@ -381,7 +380,7 @@ $sliding-panel-background-focus: lighten($sliding-panel-background, 5%);
 
 .social {
   text-align: center;
-  margin: 2em 0;
+  margin: 1em 0;
 
   li {
     display: inline-block;

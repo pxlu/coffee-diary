@@ -24,6 +24,9 @@
 {% comment %}=====================  stylesheet main.css ======================{% endcomment %}
 <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
+{% comment %}=====================  stylesheet main.css ======================{% endcomment %}
+<link rel="stylesheet" href="{{ "/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+
 {% comment %}===================== rel paginator previous page =========================={% endcomment %}
 {% if paginator.previous_page %}
   <link rel="prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url }}">
